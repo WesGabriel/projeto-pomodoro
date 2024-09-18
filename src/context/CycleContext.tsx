@@ -106,7 +106,6 @@ export const CycleContextProvider = ({
       minustesAmount: data.minutesAmount,
       startDate: new Date(),
     };
-
     dispatch({
       type: "ADD_NEW_CYCLE",
       payload: {
@@ -123,6 +122,7 @@ export const CycleContextProvider = ({
         activeCycleId,
       },
     });
+
   };
 
   return (
